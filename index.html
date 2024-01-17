@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Films and Teas by Pebbles</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="main">
-        <section id="header">
-            <img src="./films-and-teas.png" alt="blog logo" id="logo" height="200">
-            <div id="navbar"></div>
-        </section>
-        <section id="feed">
-            <div class="welcome section"></div>
-            <div class="films section"></div>
-            <div class="teas section"></div>
-        </section>
+      <section id="header">
+        <img
+          src="./films-and-teas.png"
+          alt="blog logo"
+          id="logo"
+          height="200"
+        />
+        <div id="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#welcome">About</a>
+            <a href="#films">Films</a>
+            <a href="#teas">Teas</a>
+            <a href="#juanita">Juanita's sweets</a>
+            <a href="#hippo">Hippo's events</a>
+          </div>
+        </div>
+      </section>
+      <section id="feed">
+        <div id="welcome"></div>
+        <div id="films"></div>
+        <div id="teas"></div>
+        <div id="juanita"></div>
+        <div id="hippo"></div>
+      </section>
     </div>
     <footer id="footer"></footer>
-</body>
+  </body>
 </html>
