@@ -1,8 +1,9 @@
 :root {
-    --theme: rgb(255, 224, 71);
+    --header: rgb(255, 224, 71);
     --menu: rgb(253, 211, 0);
     --text-white: #fff;
     --hover: rgb(255, 200, 0);
+    --feed: rgb(254, 237, 185);
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Courier New", Courier, monospace;
+    background-color: var(--feed);
 }
 
 .dropbtn {
@@ -65,7 +67,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--theme);
+    background-color: var(--header);
     height: 100px;
     padding: 10px;
     position: fixed;
@@ -83,4 +85,18 @@ h1 {
 #feed {
    position: relative;
    top: 150px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+#footer {
+    margin-top: 200px;
+    background-color: var(--header);
+    text-align: right;
+    height: 70px;
+}
+
+#footer p {
+    padding: 0;
+    margin: 0;
 }
