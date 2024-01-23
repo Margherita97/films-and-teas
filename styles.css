@@ -79,3 +79,8 @@ h1 {
     color: var(--text-white);
     font-size: 40px;
 }
+
+#feed {
+   position: relative;
+   top: 150px;
+}
