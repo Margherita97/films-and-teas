@@ -129,7 +129,7 @@ h4 {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  border: 5px solid red;
+  margin-bottom: 50px;
 }
 
 .second-container {
@@ -147,6 +147,10 @@ h4 {
 #teas img {
   height: 200px;
   width: 300px;
+}
+
+hr {
+  border: 2px dashed var(--header);
 }
 
 #other-pages {
