@@ -76,16 +76,6 @@ body {
   z-index: 999;
 }
 
-#feed a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
-
-#feed a:hover {
-  color: var(--hover);
-}
-
 h1 {
   font-family: "Pacifico", cursive;
   color: var(--text-white);
@@ -95,8 +85,18 @@ h1 {
 #feed {
   position: relative;
   top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#feed a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+#feed a:hover {
+  color: var(--hover);
 }
 
 h2 {
@@ -177,7 +177,7 @@ hr {
 }
 
 #footer {
-  margin-top: 200px;
+  margin-top: 250px;
   background-color: var(--header);
   text-align: right;
 }
