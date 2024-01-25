@@ -120,8 +120,33 @@ h4 {
   margin-bottom: 100px;
 }
 
-.royal-tenenbaums {
- 
+#films,
+#teas {
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border: 5px solid red;
+}
+
+.second-container {
+  flex: 1;
+}
+
+.image-left {
+  float: left;
+  margin-right: 50px;
+  height: 200px;
+  width: 300px;
+}
+
+#films img,
+#teas img {
+  height: 200px;
+  width: 300px;
 }
 
 #other-pages {
