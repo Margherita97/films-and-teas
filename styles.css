@@ -186,3 +186,9 @@ hr {
   padding: 0;
   margin: 5px;
 }
+
+@media (max-width: 1200px) {
+  .image-left {
+    margin-bottom: 20px;
+  }
+}
