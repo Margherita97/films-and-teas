@@ -76,3 +76,6 @@ body {
   z-index: 999;
 }
 
+#about {
+    margin: 200px 50px;
+}
